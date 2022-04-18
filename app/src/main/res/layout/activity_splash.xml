@@ -4,32 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ground"
     android:orientation="vertical"
     tools:context=".splash">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/logo"
-        android:padding="10dp"
-        android:layout_gravity="center"
         android:id="@+id/image"
-        />
-    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/image"
-        android:text="Kiddy-Kids"
+        android:layout_height="544dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:background="#FB0303"
-        android:textColor="@color/white"
-        android:textStyle="italic"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:src="@drawable/klogo" />
 
-        />
 
 </LinearLayout>
