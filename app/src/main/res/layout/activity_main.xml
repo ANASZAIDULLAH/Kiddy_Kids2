@@ -8,26 +8,14 @@
     android:background="@drawable/ground"
     tools:context=".MainActivity">
 
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="40dp"
-    android:layout_gravity="center"
-    android:src="@drawable/logo"
-    android:id="@+id/image"
-    />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textSize="30sp"
-    android:layout_below="@id/image"
-    android:text="New Little Angel Garments"
-    android:layout_gravity="center"
-android:gravity="center"
-    android:background="#FB0303"
-    android:textColor="@color/white"
-    android:textStyle="italic"
-    />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/klogo" />
+
 
     <EditText
         android:layout_width="match_parent"
@@ -36,7 +24,7 @@ android:gravity="center"
         android:hint="Enter Username"
         android:textSize="20sp"
         android:textStyle="italic"
-        android:background="#EC7955"
+        android:background="#F80404"
         android:id="@+id/username"
 
         android:layout_marginTop="20dp"
@@ -74,8 +62,7 @@ android:gravity="center"
         android:layout_below="@id/confirmp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="#ABEFF6"
-        android:hint="Sign up"
+        android:text="Sign Up"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="italic" />

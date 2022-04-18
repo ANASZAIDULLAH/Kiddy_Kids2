@@ -9,28 +9,16 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:src="@drawable/logo"
         android:id="@+id/image"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_below="@id/image"
-        android:text="Kiddy-Kids"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:background="#FB0303"
-        android:textColor="@color/white"
-        android:textStyle="italic"
-        />
+        android:layout_marginTop="40dp"
+        android:src="@drawable/klogo" />
+
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text"
         android:hint="Enter Username"
@@ -38,6 +26,7 @@
         android:textStyle="italic"
         android:background="#EC7955"
         android:id="@+id/username"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:textColor="@color/black"/>
