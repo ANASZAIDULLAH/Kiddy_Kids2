@@ -24,7 +24,7 @@
         android:hint="Enter Username"
         android:textSize="20sp"
         android:textStyle="italic"
-        android:background="#F80404"
+        android:background="#04BFF8"
         android:id="@+id/username"
 
         android:layout_marginTop="20dp"
@@ -37,8 +37,9 @@
         android:hint="Enter Password"
         android:textSize="20sp"
         android:textStyle="italic"
-        android:background="#EC7955"
+        android:background="#04BFF8"
         android:id="@+id/password"
+
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:textColor="@color/black"/>
@@ -51,7 +52,7 @@
         android:textStyle="italic"
         android:id="@+id/confirmp"
         android:gravity="center"
-        android:background="#EC7955"
+        android:background="#04BFF8"
         android:layout_marginTop="20dp"
         android:textColor="@color/black"/>
 
@@ -70,12 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/sign"
-        android:hint="Already Have an Account?"
+        android:text="Sign in"
         android:textSize="30sp"
         android:textStyle="italic"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:background="#ABEFF6"
+        android:textColor="@color/white"
+
         android:id="@+id/log"/>
 
 
