@@ -1,6 +1,7 @@
 package com.example.kiddy_kids;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.TextureView;
 import android.view.View;
@@ -49,7 +50,16 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
         return modelList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+
+
+
+
+
+
+
+
+
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
 
         TextView mProductName, mProductDescription;
@@ -61,6 +71,19 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
             mProductName= itemView.findViewById(R.id.ProductName);
             mProductDescription=itemView.findViewById(R.id.description);
             imageView = itemView.findViewById(R.id.ProductImage);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+
+            int position = getAdapterPosition();
+
+            if (position ==0)
+            {
+                Intent intent = new Intent(context, CLothesInfo.class);
+                context.startActivity(intent);
+            }
         }
     }
 }

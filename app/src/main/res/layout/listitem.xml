@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="wrap_content"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
@@ -22,15 +23,16 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/white">
 
 
             <ImageView
+                android:id="@+id/ProductImage"
                 android:layout_width="88dp"
                 android:layout_height="88dp"
-                android:id="@+id/ProductImage"
                 android:layout_marginTop="4dp"
-                android:src="@drawable/pents"/>
+                android:src="@drawable/pents" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -50,6 +52,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@+id/ProductImage"
+                android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="italic"
                 tools:text="Boys Jeans" />
@@ -62,6 +65,7 @@
                 android:id="@+id/clickheretoorder"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="4dp"
+                android:textColor="@color/black"
                 tools:text="Click  to Order"/>
 
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".CLothesInfo"
+            android:exported="false" />
+        <activity
             android:name=".Clothesfb"
             android:exported="false" />
         <activity
