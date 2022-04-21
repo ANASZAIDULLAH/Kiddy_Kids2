@@ -2,22 +2,19 @@
     <string name="app_name">Kiddy_Kids</string>
 
 
-
-        <string name="Babyjeans">We have a different quality of jeans</string>
-
-
-        <string name="Dress">We have a different quality of baby dresses </string>
+    <string name="Babyjeans">We have a different quality of jeans</string>
 
 
-        <string name="BabySocks">We have a different quality of jeans.</string>
+    <string name="Dress">We have a different quality of baby dresses </string>
 
 
-        <string name="BabyGloves">We have a different quality of baby gloves</string>
+    <string name="BabySocks">We have a different quality of jeans.</string>
 
 
-        <string name="BabyCap">We have a different quality of caps </string>
+    <string name="BabyGloves">We have a different quality of baby gloves</string>
 
 
+    <string name="BabyCap">We have a different quality of caps </string>
 
 
 </resources>

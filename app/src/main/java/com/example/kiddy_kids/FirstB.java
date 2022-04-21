@@ -1,31 +1,34 @@
 package com.example.kiddy_kids;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
 
 public class FirstB extends AppCompatActivity {
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
 
+    CardView one, too, three;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_b);
 
-        tabLayout= findViewById(R.id.tablayout);
-        viewPager = findViewById(R.id.veiwpager);
+        one = (CardView) findViewById(R.id.c1);
+        one.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Clothesfb.class);
+                startActivity(intent);
+            }
+        });
 
-        tabLayout.setupWithViewPager(viewPager);
 
-        VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addfragment(new ToysFragment(),"TOYS");
-        vpAdapter.addfragment(new FeedingFragment(),"FEEDING");
-        vpAdapter.addfragment(new ClothingFregment(),"CLOTHES");
-        viewPager.setAdapter(vpAdapter);
+
     }
 }
