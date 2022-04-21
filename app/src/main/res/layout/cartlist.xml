@@ -6,11 +6,13 @@
     android:layout_height="match_parent">
 
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/orderSummary"
+
         android:text="Product Name"
+android:textColor="@color/black"
         android:textStyle="bold"
         android:id="@+id/ProductNameinOrderSummary"
         android:layout_marginLeft="10dp"/>
@@ -19,10 +21,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/orderSummary"
         android:layout_toRightOf="@+id/ProductNameinOrderSummary"
         android:text="x"
+
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:id="@+id/quantityinOrderSummary"
         android:layout_marginLeft="10dp"/>
 
@@ -35,6 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:text="$10"
+        android:textColor="@color/black"
+   
         android:id="@+id/priceinOrderSummary"
         android:layout_marginRight="10dp"/>
 
