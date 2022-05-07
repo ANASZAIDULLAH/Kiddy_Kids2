@@ -28,6 +28,7 @@
                 android:layout_marginTop="10dp"
                 android:textSize="30sp"
                 android:id="@+id/orderSummary"
+                android:textColor="@color/black"
                 android:background="@color/white"
                 android:text="ORDER SUMMARY"/>
 
