@@ -10,18 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/klogo"/>
+
     <ImageView
+        android:id="@+id/callimage"
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_marginLeft="47dp"
 
-        android:src="@drawable/call"
-        android:id="@+id/callimage"
-        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="47dp"
-        />
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/call" />
 
     <TextView
         android:id="@+id/textcall"
@@ -46,8 +44,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginLeft="47dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/mail" />
 
@@ -55,15 +53,16 @@
         android:id="@+id/textmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-android:textColor="@color/black"
         android:layout_below="@id/mailimage"
-        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@id/mailimage"
         android:layout_gravity="center_vertical"
+        android:layout_marginTop="-51dp"
         android:layout_marginBottom="0dp"
         android:paddingLeft="20sp"
         android:paddingTop="20sp"
         android:text="kiddykids@gmail.com"
 
+        android:textColor="@color/black"
         android:textSize="35sp" />
 
 </RelativeLayout>
