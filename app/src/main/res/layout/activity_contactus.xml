@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".contactus">
     <ImageView
         android:layout_width="match_parent"
@@ -13,6 +14,7 @@
         android:layout_width="50sp"
         android:layout_height="50sp"
         android:layout_marginLeft="47dp"
+
         android:src="@drawable/call"
         android:id="@+id/callimage"
         android:layout_centerVertical="true"
@@ -26,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/callimage"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_vertical"
         android:layout_marginBottom="0dp"
@@ -52,7 +55,7 @@
         android:id="@+id/textmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+android:textColor="@color/black"
         android:layout_below="@id/mailimage"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_vertical"

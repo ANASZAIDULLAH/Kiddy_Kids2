@@ -142,6 +142,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cardElevation="8dp"
+                android:id="@+id/contact"
                 app:cardCornerRadius="15dp"
                 android:layout_margin="20dp"
                 >

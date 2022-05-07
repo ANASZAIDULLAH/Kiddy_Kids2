@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".packages">
 
     <RelativeLayout
@@ -45,6 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/des"
+                    android:textColor="@color/black"
                     android:text="Contains different items"
                     android:layout_marginTop="5dp"/>
 
@@ -60,6 +63,69 @@
             android:padding="15dp"
             android:layout_alignParentRight="true"
             android:text="3000 Rs"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/p2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portfolio1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/packagepic"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/packages1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 2"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/des1"
+                    android:textColor="@color/black"
+                    android:text="Contains different items"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:text="5000 Rs"
+            android:textColor="@color/black"
             android:textSize="20dp"/>
 
     </RelativeLayout>
@@ -67,6 +133,201 @@
 
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/p3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portfolio3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/packagepic"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/packages3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 3"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/des3"
+                    android:textColor="@color/black"
+                    android:text="Contains different items"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:text="6000 Rs"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/p4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portfolio4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/packagepic"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/packages4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 4"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/des4"
+                    android:textColor="@color/black"
+                    android:text="Contains different items"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:text="7000 Rs"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/p5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portfolio5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/packagepic"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/packages5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 5"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/des5"
+                    android:textColor="@color/black"
+                    android:text="Contains different items"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:text="8000 Rs"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="50dp"
+        android:background="#F30606"
+        android:text="Ask For New Package" />
 
 
 </LinearLayout>
