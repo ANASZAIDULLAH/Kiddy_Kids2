@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".contactus">
     <ImageView
         android:layout_width="match_parent"
@@ -15,7 +16,6 @@
         android:id="@+id/callimage"
         android:layout_width="50sp"
         android:layout_height="50sp"
-
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="30dp"
@@ -26,13 +26,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/callimage"
-        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center"
         android:layout_marginBottom="0dp"
         android:paddingLeft="20sp"
         android:paddingTop="20sp"
         android:text="0324-9524557"
+        android:textColor="@color/black"
 
         android:textSize="35sp" />
 
@@ -40,13 +40,9 @@
         android:id="@+id/mailimage"
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_below="@id/callimage"
-        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
         android:src="@drawable/mail" />
 
     <TextView
@@ -55,8 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/mailimage"
         android:layout_alignLeft="@id/mailimage"
-        android:layout_gravity="center_vertical"
-        android:layout_marginTop="-51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
         android:layout_marginBottom="0dp"
         android:paddingLeft="20sp"
         android:paddingTop="20sp"
@@ -65,4 +61,4 @@
         android:textColor="@color/black"
         android:textSize="35sp" />
 
-</RelativeLayout>
+</LinearLayout>
