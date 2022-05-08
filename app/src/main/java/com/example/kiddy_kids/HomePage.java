@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class HomePage extends AppCompatActivity {
-    CardView sale,boys,girls,packages,contactus;
+    CardView sale,boys,girls,packages,contactus,aboutus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,21 @@ public class HomePage extends AppCompatActivity {
 
             }
         });
+        aboutus = (CardView) findViewById(R.id.about);
+        aboutus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),aboutus.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+
         boys = (CardView) findViewById(R.id.boys);
         boys.setOnClickListener(new View.OnClickListener() {
             @Override

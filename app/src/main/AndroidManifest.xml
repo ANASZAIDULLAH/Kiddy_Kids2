@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
             android:name=".CustomizePackage"
             android:exported="false" />
         <activity
