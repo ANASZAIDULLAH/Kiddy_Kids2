@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".aboutus">
 
-<FrameLayout
-    android:layout_width="match_parent"
+<TextView
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" >
-
-    <VideoView
+    android:layout_gravity="center"
+    android:id="@+id/hea"
+    android:text="Kiddy-Kids"
+    android:textStyle="bold"
+    android:background="#FD0505"
+    android:textSize="40sp"
+    android:textColor="@color/white"
+/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="We are dealing with all kinds of kids variety. We have different quality of jeans, shorts, shirts for kids. And our shop is in Careem BLock Market, Lahore"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="40sp"
+        android:background="#FD0505"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habib Plaza Kareem BLock, Lahore"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <VideoView
         android:id="@+id/vedio"
-
-
-
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_marginTop="80dp"
 
         />
-</FrameLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
