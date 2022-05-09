@@ -1,6 +1,8 @@
+
 package com.example.kiddy_kids;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     EditText mTextUsername;
     EditText mTextPassword;
     EditText mconfirmpass;
-    Button signup;
-    Button signin;
+    CardView login, register;
+
    DBHelper DB;
 
     @Override
@@ -27,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         mTextUsername = (EditText) findViewById(R.id.username);
         mTextPassword = (EditText) findViewById(R.id.password);
         mconfirmpass =(EditText) findViewById(R.id.confirmp);
-        signup = (Button) findViewById(R.id.sign);
-        signin = (Button) findViewById(R.id.log);
+        login = (CardView) findViewById(R.id.sign);
+         register= (CardView) findViewById(R.id.log);
        DB = new DBHelper(this);
 
-        signup.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String user = mTextUsername.getText().toString();
@@ -66,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        signin.setOnClickListener(new View.OnClickListener() {
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
