@@ -31,7 +31,14 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-
+        sale = (CardView) findViewById(R.id.sale);
+        sale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Sale.class);
+                startActivity(intent);
+            }
+        });
 
 
 

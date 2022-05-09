@@ -8,6 +8,8 @@
     android:orientation="vertical"
     tools:context=".aboutus">
 
+
+
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -17,13 +19,14 @@
     android:textStyle="bold"
     android:background="#FD0505"
     android:textSize="40sp"
+
     android:textColor="@color/white"
 />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="We are dealing with all kinds of kids variety. We have different quality of jeans, shorts, shirts for kids. And our shop is in Careem BLock Market, Lahore"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="italic"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
@@ -46,12 +49,18 @@
         android:layout_marginTop="10dp"
         android:textColor="@color/black"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
     <VideoView
+
         android:id="@+id/vedio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="80dp"
 
         />
-
+    </LinearLayout>
 </LinearLayout>
