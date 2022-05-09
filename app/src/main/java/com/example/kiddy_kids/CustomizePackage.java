@@ -1,6 +1,7 @@
 package com.example.kiddy_kids;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.Toast;
 public class CustomizePackage extends AppCompatActivity {
 
    private EditText text1, text, text3;
-    private Button submit;
+    private CardView submit;
    private DatabaseHelper DB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class CustomizePackage extends AppCompatActivity {
         text1= (EditText) findViewById(R.id.text1);
         text = (EditText) findViewById(R.id.text2);
         text3 =(EditText) findViewById(R.id.text3);
-        submit = (Button) findViewById(R.id.submit);
+        submit = (CardView) findViewById(R.id.submit);
 
 
 submit.setOnClickListener(new View.OnClickListener() {

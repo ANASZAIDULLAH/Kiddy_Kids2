@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Girls"
-    android:background="@drawable/ground"
+    android:background="#FF9800"
     android:orientation="vertical">
 
     <LinearLayout
@@ -58,9 +58,10 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img1"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -71,6 +72,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txt1"
+                                android:textColor="@color/black"
                                 android:text="1 Year"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
@@ -93,9 +95,10 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img2"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -103,6 +106,7 @@
 
                             <TextView
                                 android:id="@+id/txt2"
+                                android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/img2"
@@ -135,9 +139,10 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img3"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -145,6 +150,7 @@
 
                             <TextView
                                 android:id="@+id/txt3"
+                                android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/img3"
@@ -168,9 +174,10 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img4"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -178,6 +185,7 @@
 
                             <TextView
                                 android:id="@+id/txt4"
+                                android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/img4"
@@ -209,9 +217,11 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            >
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img5"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -223,6 +233,7 @@
                                 android:id="@+id/txt5"
                                 android:text="(4-5) Years"
                                 android:textSize="16sp"
+                                android:textColor="@color/black"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_below="@+id/img5"
@@ -243,9 +254,11 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            >
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:id="@+id/img6"
                                 android:layout_width="match_parent"
                                 android:layout_height="120dp"
@@ -258,6 +271,7 @@
                                 android:text="(5-6) Years"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:layout_centerInParent="true"
                                 android:layout_below="@+id/img6"
                                 android:layout_marginTop="10dp"/>

@@ -20,7 +20,7 @@ public class packages extends AppCompatActivity {
 
 
     RelativeLayout p1,p2,p3,p4,p5;
-    Button b;
+    CardView b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +39,7 @@ public class packages extends AppCompatActivity {
         });
 
 
-        b = (Button) findViewById(R.id.button);
+        b = (CardView) findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
