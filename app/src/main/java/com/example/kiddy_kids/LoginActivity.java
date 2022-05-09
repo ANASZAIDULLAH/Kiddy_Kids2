@@ -1,6 +1,7 @@
 package com.example.kiddy_kids;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +14,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText mTextUsername;
     EditText mTextPassword;
-    Button mButtonLogin;
-    Button mButtonRegister;
+   CardView login, register;
     DBHelper DB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +22,11 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         mTextUsername = (EditText) findViewById(R.id.username);
         mTextPassword = (EditText) findViewById(R.id.password);
-        mButtonLogin = (Button) findViewById(R.id.login);
-        mButtonRegister = (Button) findViewById(R.id.log);
+        login = (CardView) findViewById(R.id.login);
+        register = (CardView) findViewById(R.id.log);
         DB = new DBHelper(this);
 
-        mButtonLogin.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             String user = mTextUsername.getText().toString();
@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        mButtonRegister.setOnClickListener(new View.OnClickListener() {
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent registerIntent = new Intent(LoginActivity.this,MainActivity.class);
