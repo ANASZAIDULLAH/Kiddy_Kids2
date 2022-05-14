@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".Contact_us"
+            android:exported="false" />
+        <activity
             android:name=".Sale"
             android:exported="false" />
         <activity
@@ -20,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".CustomizePackage"
-            android:exported="false" />
-        <activity
-            android:name=".contactus"
             android:exported="false" />
         <activity
             android:name=".CartSummary"

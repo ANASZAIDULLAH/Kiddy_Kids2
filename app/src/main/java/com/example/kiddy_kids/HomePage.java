@@ -97,7 +97,7 @@ public class HomePage extends AppCompatActivity {
         contactus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),contactus.class);
+                Intent intent = new Intent(getApplicationContext(),Contact_us.class);
                 startActivity(intent);
             }
         });

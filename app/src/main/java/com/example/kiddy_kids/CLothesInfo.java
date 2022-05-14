@@ -64,7 +64,7 @@ public class CLothesInfo extends AppCompatActivity implements LoaderManager.Load
         plusquantity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int baseprice = 5;
+                int baseprice = 700;
                 quantity++;
                 displayQuantity();
                 int pantsprice = baseprice * quantity;
@@ -79,7 +79,7 @@ public class CLothesInfo extends AppCompatActivity implements LoaderManager.Load
             @Override
             public void onClick(View view) {
 
-                int baseprice = 5;
+                int baseprice = 700;
                 if (quantity == 0){
                     Toast.makeText(CLothesInfo.this,"Cant decrease quantity<0", Toast.LENGTH_SHORT).show();
 
